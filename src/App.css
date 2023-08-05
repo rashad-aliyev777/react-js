@@ -1,0 +1,22 @@
+:root {
+  --main-dark-color:#0A121F;
+  --main-soft-dark-color:#08101D;
+  --soft-blue-color:#3A68B8;
+  --ag-reng:#fff;
+}
+
+nav.navbar {
+  background: var(--main-dark-color);
+}
+
+.menim-buttonum {
+  background: var(--soft-blue-color);
+  border: none;
+  color: var(--ag-reng);
+  padding: 15px 30px;
+  border-radius: 10px;
+}
+
+.navbar-toggler {
+  color: var(--ag-reng);
+}
