@@ -20,3 +20,91 @@ nav.navbar {
 .navbar-toggler {
   color: var(--ag-reng);
 }
+.overlay {
+  height: 100vh;
+  position: fixed;
+  z-index: 9999;
+  background: rgba(0, 0, 0, 0.6);
+  width: 0;
+  overflow-x: hidden;
+  transition: width 1s ease;
+}
+.overlay-links {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+
+}
+.overlay-links a {
+  font-size: 30px ;
+  text-decoration: none;
+  color: #aaa;
+  transition: all 1s ease;
+}
+.overlay-links a:hover {
+  transform: translateX(15px);
+  color: var(--ag-reng);
+}
+.close-icon {
+  background: transparent;
+  color: var(--ag-reng);
+  position: absolute;
+  right: 40px;
+  top: 30px;
+  border: none;
+  font-size: 25px;
+}
+.overlay.active {
+  width: 100%;
+}
+.deep-learning {
+  background-color: var(--main-soft-dark-color);
+  display: flex;
+  justify-content: space-between;
+}
+
+.deep-learning-sol img {
+  width: 100%;
+}
+.deep-learning-sag h3 {
+  color: var(--ag-reng);
+}
+.deep-learning-sag p {
+  color: #aaa;
+}
+
+
+/* awards */
+
+.awards-container {
+  display: flex;
+  flex-wrap: wrap;
+  background-color: var(--main-soft-dark-color);
+  color: var(--ag-reng);
+  
+}
+
+.award {
+  flex: 0.5 0 250px;
+  border-radius: 15px;
+  background-color: #242b35;
+  transition: all 0.4s ease;
+  margin: 5px;
+}
+.award img {
+  display: block;
+  margin: 0 auto;
+}
+.award h2 {
+  font-size: 25px;
+  text-align: center;
+}
+.award p {
+  font-size: 16px;
+  text-align: center;
+}
+.award:hover {
+  box-shadow: 4px 4px 25px rgba(255,255,255,.3);
+}

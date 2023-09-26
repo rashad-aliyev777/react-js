@@ -1,0 +1,46 @@
+@import url(./rengler.css);
+
+.introduction {
+  background: var(--main-soft-dark-color); 
+  display: flex;
+  justify-content: space-between; 
+  
+}
+.introduction .introduction-sol h2,
+.introduction .introduction-sol p {
+    color: var(--ag-reng);
+}
+.introduction .introduction-sol h6 {
+    color: var(--soft-blue-color);
+    text-transform: uppercase;
+}
+.main-img {
+    width: 100%;
+}
+
+
+/* Mobile First Approach */
+
+.introduction {
+    padding-top: 100px;
+    text-align: center;
+    padding-bottom: 100px;
+}
+
+.introduction-sol {
+    margin-bottom: 100px;
+}
+.introduction-sol h2 {
+    margin: 40px auto;
+}
+
+.introduction-sag {
+    margin: 0 auto;
+    display: block;
+    padding: 80px;
+}
+.type-text {
+    color: var(--ag-reng);
+    font-size: 30px;
+    font-weight: 700;
+}
